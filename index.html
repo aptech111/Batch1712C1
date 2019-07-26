@@ -4,46 +4,74 @@
     <title>Github File</title>
   </head>
   <body>
-        
-    <!-- Slideshow container -->
-<div class="slideshow-container">
+    <h1>Adding navbar</h1>
+    <div class="colorlib-loader"></div>
 
-  <!-- Full-width images with number and caption text -->
-  <div class="mySlides fade">
-    <div class="numbertext">1 / 3</div>
-    <img src="img1.jpg" style="width:100%">
-    <div class="text">Caption Text</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 3</div>
-    <img src="img2.jpg" style="width:100%">
-    <div class="text">Caption Two</div>
-  </div>
-
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 3</div>
-    <img src="img3.jpg" style="width:100%">
-    <div class="text">Caption Three</div>
-  </div>
-
-  <!-- Next and previous buttons -->
-  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-  <a class="next" onclick="plusSlides(1)">&#10095;</a>
-</div>
-<br>
-
-<!-- The dots/circles -->
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-    
-    
-    
-    
-    <div class="toggle-nav">
+	<div id="page">
+		<nav class="colorlib-nav" role="navigation">
+			<div class="top-menu">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-7 col-md-9">
+							<div id="colorlib-logo"><a href="#footwer">Footwear</a></div>
+						</div>
+						<div class="col-sm-5 col-md-3">
+			            <form action="#" class="search-wrap">
+			               <div class="form-group">
+			                  <input type="search" class="form-control search" placeholder="Search">
+			                  <button class="btn btn-primary submit-search text-center" type="submit"><i class="icon-search"></i></button>
+			               </div>
+			            </form>
+			         </div>
+		         </div>
+					<div class="row">
+						<div class="col-sm-12 text-left menu-1">
+							<ul>
+								<li class="active"><a href="#home">Home</a></li>
+								<li class="has-dropdown">
+									<a href="men.html">Men</a>
+									<ul class="dropdown">
+										<li><a href="#product-detail">Product Detail</a></li>
+										<li><a href="#shopping cart">Shopping Cart</a></li>
+										<li><a href="#checkout">Checkout</a></li>
+										<li><a href="#order-complete">Order Complete</a></li>
+										<li><a href="#wishlist">Wishlist</a></li>
+									</ul>
+								</li>
+								<li><a href="#women">Women</a></li>
+								<li><a href="#about">About</a></li>
+								<li><a href="#contact">Contact</a></li>
+								<li class="cart"><a href="#cart"><i class="icon-shopping-cart"></i> Cart [0]</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="sale">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-8 offset-sm-2 text-center">
+							<div class="row">
+								<div class="owl-carousel2">
+									<div class="item">
+										<div class="col">
+											<h3><a href="#">25% off (Almost) Everything! Use Code: Summer Sale</a></h3>
+										</div>
+									</div>
+									<div class="item">
+										<div class="col">
+											<h3><a href="#">Our biggest sale yet 50% off all summer shoes</a></h3>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+    </div>
+        <div class="toggle-nav">
                 <div class="icon-reorder tooltips" data-original-title="Toggle Navigation" data-placement="bottom"><i class="icon_menu"></i></div>
             </div>
 
@@ -62,6 +90,7 @@
                 </ul>
                 <!--  search form end -->                
             </div>
+            <h1>Adiing Button/h1>
+            <a id="#" class="btn btn-danger" type="button">Submit</a>
        </body>
-  
        </html>
